@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    gap: 12px;
+    padding: 0 16px;
+    background-color: #c8d6e5;
+}
+header .search-wrapper{
+    flex-grow: 1;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer ul li a{
+    color: #eee;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 20px;
+    background-color: #222f3e;
+}
+
+footer div strong{
+    margin-bottom: 20px;
+    display: block;
+    color: #eee;
+}
+/*Mantener el footer abajo*/
+body{
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows:
+        auto 1fr auto;
+}
+
