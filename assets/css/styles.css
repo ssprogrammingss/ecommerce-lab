@@ -54,5 +54,23 @@ footer div strong {
 }
 
 footer a {
-    color: #eee;
+    color: var(--secondary-color);
+}
+
+.offcanvas-body a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    color: var(--primary-color);
+    font-size: 18px;
+
+}
+
+.offcanvas-body a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    transition: .3s ease all;
 }
