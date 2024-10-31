@@ -14,10 +14,27 @@ header .user-menu {
     display: flex;
     gap: 15px;
 }
+header .user-menu a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+header .search-wrapper {
+    flex-grow: 1;
+}
 header img {
     position: relative;
     height: 100px;
     width: 100px;
+}
+body {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex-grow: 1;
+
 }
 
 .diagonal-left{
@@ -46,6 +63,21 @@ header img {
     transform: rotate(-45deg);
     right: -16px;
 }
+.offcanvas-body a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    color:#000000;
+}
+.offcanvas-body a:hover {
+    background-color: #D99414;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    
+
+}
+
 
 footer {
     display: flex;
@@ -53,8 +85,9 @@ footer {
     padding: 50px 20px;
     background-color: #D99414;
 }
-footer div {
-
+footer div strong {
+    margin-bottom: 20px;
+    display: block;
 }
 footer ul {
     list-style: none;
