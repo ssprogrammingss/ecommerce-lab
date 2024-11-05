@@ -2,7 +2,7 @@ header {
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    background-color: #D99414;
+    background-color: #e69e17;
     gap: 15px;
     position: relative; /*posicionar elementos hijos en relación al header */
     z-index: 1;
@@ -74,8 +74,6 @@ main {
     background-color: #D99414;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
-    
-
 }
 
 
