@@ -5,16 +5,45 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <header>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0JkmI_5ThZmujOOK5jZoekjzdZAsv-fIoJw&s" alt="logo" width="150">
+
+    <button class="btn btn-secondary" data-bs-toggle="offcanvas" data-bs-target="#sidebar-menú">
+        <i class="fa fa-bars"></i>
+        Menú
+    </button>
     </header>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar-menú" aria-labelledby="sidebar-menú">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
    <main></main>
 
    <footer></footer>
-   
+
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>   
