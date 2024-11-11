@@ -1,7 +1,22 @@
+:root {
+    --header-color: rgba(0, 0, 0, 0.3);
+    --primary-color: #5f27cd;
+    --darl-color: #2c3e50;
+}
+
+a{
+    text-decoration: none;
+}    
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid var(--header-color)
     background-color: #c8d6e5;
     gap: 15px;
     padding: 10px;
@@ -13,9 +28,39 @@ header .user-menu {
     align-items: center;
     gap: 15px;
 }
-header .user-menu a {
-    display: block;
-}
-header .search-wrapper{
+
+header .search-contenedor{
     flex-grow: 1;
 }
+
+main{
+    flex-grow: 1;
+    padding: 20px;
+}
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li a {
+    color: #eee;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding:  50px 20px;
+    background-color: var(--primary-color)
+}
+
+footer div strong {
+    margin-bottom: 20px;
+    display: block;
+    color: #eee;
+
+}
+
+
+

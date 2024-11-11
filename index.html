@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
-    <header>
-        <img src="https://www.creativefabrica.com/wp-content/uploads/2021/06/29/Gradient-ecommerce-logo-Online-shop-Graphics-14011354-1-1-580x386.png" alt="logo" width="200">
+  <header>
+    <img
+      src="https://www.creativefabrica.com/wp-content/uploads/2021/06/29/Gradient-ecommerce-logo-Online-shop-Graphics-14011354-1-1-580x386.png"
+      alt="logo" width="200">
 
     <button class="btn btn-outline-dark btn-lg" data-bs-toggle="offcanvas" data-bs-target="#sidebar-menú">
-        <i class="fa fa-bars"></i>
+      <i class="fa fa-bars"></i>
     </button>
 
-    <div class="search-wrapper">  
-        <div class="input-group input-group-lg">
-            <input type="text" class="form-control" placeholder="Buscar..." aria-label="search"       aria-describedby="button-addon2">
-            <button class="btn btn-outline-secondary" type="button" id="button-addon2">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-        </div>
-    </div> 
-    
+    <div class="search-contenedor">
+      <div class="input-group input-group-lg">
+        <input type="text" class="form-control" placeholder="Buscar..." aria-label="search"
+          aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </div>
+
+
     <div class="user-menu">
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -35,36 +43,99 @@
           <li><a class="dropdown-item" href="#">Registrarme</a></li>
         </ul>
       </div>
-        <a href="#">Mis compras</a>
+      <a href="#">Mis compras</a>
+      <button class="btn btn-secondary">
+        <i class="fa fa-heart"></i>
+      </button>
+      <a href="#" class="btn btn-secondary">
+        <i class="fa fa-cart-shopping"></i>
+      </a>
     </div>
-    </header>
+  </header>
 
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar-menú" aria-labelledby="sidebar-menú">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <div>
-            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-          </div>
-          <div class="dropdown mt-3">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-              Dropdown button
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
-        </div>
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar-menú" aria-labelledby="sidebar-menú">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+        Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
+        etc.
       </div>
+      <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-   <main></main>
+  <main>
+    <h1>Bienvenidos a mi tienda</h1>
 
-   <footer></footer>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat magnam velit necessitatibus eius repudiandae. At magnam repudiandae reprehenderit soluta quis fugiat laudantium dolore sed, cupiditate veniam aut, tempore suscipit perspiciatis tenetur ex illum id placeat commodi amet veritatis? Provident reprehenderit ullam iste dolores sunt. Nemo, repellendus tempore id unde iusto provident cumque laudantium quis aut voluptatum pariatur maxime ad delectus quasi quo, sapiente ea consequuntur neque necessitatibus accusantium ut facere tempora. Qui quasi ipsa fuga excepturi labore sunt possimus nisi quod nulla. Recusandae odit distinctio repudiandae eius temporibus nisi ipsam aliquam iure enim ut ab nostrum exercitationem in omnis magnam excepturi tempore deleniti beatae itaque dolores, atque numquam aperiam unde nesciunt! Enim perspiciatis debitis iure quibusdam recusandae pariatur ad, corporis minima qui ipsum molestiae architecto aliquid aperiam quas et ut vitae voluptatum eius ab dolore, animi consectetur? Laboriosam, quidem incidunt, magnam maxime ad corporis dolorem, expedita neque minus ducimus voluptatem cum minima ea? Sapiente amet, dolor sed modi reprehenderit nam quisquam blanditiis molestiae delectus? Sunt eveniet asperiores minus incidunt nesciunt accusantium quod, animi ducimus libero facere quasi ex voluptas explicabo quia vel ratione mollitia eius eos nobis voluptatum deleniti consequatur! Voluptate mollitia totam veritatis aliquam tempore quis amet. Quidem unde fuga officia vero explicabo debitis voluptatem ratione similique commodi facilis provident temporibus, alias mollitia animi obcaecati, aut magnam sint quasi quisquam tenetur dolores. Nisi fugit distinctio debitis inventore provident corporis aut voluptate iure. Voluptate, saepe fugiat. Eligendi deleniti, nulla harum cum beatae libero aut! Veniam porro alias cumque vero. Voluptatum enim dolor voluptas quasi deserunt sapiente non in sint dolorum autem. Quisquam aut ut saepe molestias, mollitia, eligendi vero dolorem quas expedita pariatur velit asperiores voluptatem harum voluptates eum explicabo dolores impedit! Sint perspiciatis est architecto, delectus natus alias, doloremque necessitatibus quo repellat excepturi facere non temporibus ducimus iste ea. Delectus obcaecati ipsa modi esse veniam sed soluta veritatis consectetur, ipsam expedita quas sunt possimus quis eligendi eos reiciendis labore, cumque at, dolorum molestiae eaque asperiores nisi sequi! Deleniti dolorum nemo, eligendi, animi, repudiandae voluptatibus corrupti adipisci dolor provident numquam hic vel ea cupiditate aut architecto distinctio tempore dolores maiores explicabo ipsum cum aperiam fuga error? Delectus velit maxime veritatis pariatur illo est enim, atque fugit? Doloribus unde itaque aspernatur vitae. Soluta at, explicabo culpa officia odit ducimus eveniet quae? Dolor commodi quae laborum, eius eaque dignissimos sit assumenda earum rem inventore. Officia, inventore nemo iusto architecto molestiae quo ipsum suscipit beatae, fugit hic cum harum unde. Quos odio recusandae quae iste quis quod suscipit dicta nihil illum, harum pariatur qui architecto, rem saepe optio? Hic accusantium adipisci ipsum tempora consectetur. Doloremque laborum consequuntur molestias nisi quod laudantium ut veniam provident cumque nihil explicabo delectus expedita illum dolor voluptates id officiis, a omnis consequatur similique error dignissimos corrupti neque suscipit? Soluta blanditiis ipsum velit dolore consectetur natus, voluptatem odio odit facere, inventore qui ad sunt ipsam modi, quas magnam! Voluptate quod quisquam cupiditate a eveniet! Illo, officiis incidunt. Placeat rerum aspernatur recusandae esse unde fuga necessitatibus eveniet reiciendis soluta est.</p>
 
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <footer>
+    <div>
+      <strong>Te ayudamos</strong>
+
+      <ul>
+        <li><a href="#">Elemento 1</a></li>
+        <li><a href="#">Elemento 2</a></li>
+        <li><a href="#">Elemento 3</a></li>
+        <li><a href="#">Elemento 4</a></li>
+        <li><a href="#">Elemento 5</a></li>
+        <li><a href="#">Elemento 6</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <strong>Se parte de mi tienda.com</strong>
+
+      <ul>
+        <li><a href="#">Elemento 1</a></li>
+        <li><a href="#">Elemento 2</a></li>
+        <li><a href="#">Elemento 3</a></li>
+        <li><a href="#">Elemento 4</a></li>
+        <li><a href="#">Elemento 5</a></li>
+        <li><a href="#">Elemento 6</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <strong>Se parte de mi tienda.com</strong>
+
+      <ul>
+        <li><a href="#">Elemento 1</a></li>
+        <li><a href="#">Elemento 2</a></li>
+        <li><a href="#">Elemento 3</a></li>
+        <li><a href="#">Elemento 4</a></li>
+        <li><a href="#">Elemento 5</a></li>
+        <li><a href="#">Elemento 6</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <strong>Se parte de mi tienda.com</strong>
+
+      <ul>
+        <li><a href="#">Elemento 1</a></li>
+        <li><a href="#">Elemento 2</a></li>
+        <li><a href="#">Elemento 3</a></li>
+        <li><a href="#">Elemento 4</a></li>
+        <li><a href="#">Elemento 5</a></li>
+        <li><a href="#">Elemento 6</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>   
+
+</html>
