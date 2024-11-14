@@ -3,3 +3,16 @@
     --primary-color: #5f27cd;
     --darl-color: #2c3e50;
 }
+
+a{
+    text-decoration: none;
+}    
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
